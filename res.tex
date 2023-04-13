@@ -1,0 +1,231 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional CV
+% LaTeX Template
+% Version 2.0 (8/5/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Rishi Shah 
+%
+% Important note:
+% This template requires the resume.cls file to be in the same directory as the
+% .tex file. The resume.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{resume} % Use the custom resume.cls style
+
+\usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} % Document margins
+
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+}
+
+\urlstyle{same}
+
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+\name{Adam Weiner} % Your name
+
+\address{adamcweiner@gmail.com \\ (949)-874-0026 \\ https://github.com/adamcweiner} % Your phone number and email
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+
+{\bf Weill Cornell Graduate School of Medical Sciences} \hfill {\em July 2019 - Present} 
+\\ Tri-Institutional Ph.D. Program in Computational Biology \& Medicine
+\\ Advised by Dr. Sohrab Shah
+\\
+\\{\bf University of California, Los Angeles} \hfill {\em Sept 2015 - June 2019} 
+\\ B.S. in Bioengineering, technical breadth in Computer Science
+\\ GPA: 3.67 overall / 3.86 junior-senior science
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	Research Experience
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Research Experience}
+
+{\bf Dr. Sohrab Shah, Memorial Sloan Kettering Cancer Center} \hfill {\em Jan 2020 - Present}
+\begin{itemize}
+  \item Developed computational methods for telomere length estimation and cell cycle classification in single-cell whole genome sequencing (scWGS) data.
+  \item Built probabilistic graphical model for inferring single-cell replication timing profiles from scWGS data while robust to subclonal and cell-specific copy number aberrations.
+  \item Studying connections between replication timing, replication stress, clonal fitness, and genomic instability.
+\end{itemize}
+
+{\bf Dr. Marcin Imielinski, Weill Cornell \& New York Genome Center} \hfill {\em Sept 2019 - Dec 2019}
+\begin{itemize}
+  \item Investigated multi-way chromatin contacts in cancer genomes with Pore-C (ONT collaboration).
+\end{itemize}
+
+{\bf Dr. Olivier Elemento, Weill Cornell} \hfill {\em July 2019 - Sept 2019}
+\begin{itemize}
+  \item Mined cancer drug combination therapy clinical trial results to build a machine learning pipeline for predicting specific adverse events.
+\end{itemize}
+
+{\bf Dr. Aaron S. Meyer, UCLA} \hfill {\em Sept 2017 - July 2019}
+\begin{itemize}
+  \item Built model for common $\gamma$-chain cytokines to infer immeasurable receptor-ligand reaction rates and used tensor factorization to map how native and mutant cytokines preferentially activate specific immune cell populations.
+  \item Built lineage tree hidden Markov model that used single-cell phenotypic measurements to quantify heterogeneity of resistance states that arose after combination cancer therapies.
+\end{itemize}
+
+{\bf Drs. Peter Reiher \& Leonard Kleinrock, UCLA} \hfill {\em Sept 2018 - May 2019}
+\begin{itemize}
+    \item Used hemagglutinin sequencing data to predict flu vaccine efficacy against circulating strains. Awarded \$7,500 and lab space by UCLA Internet Research Initiative (IRI).
+\end{itemize}
+
+
+{\bf Drs. Thomas Vallim \& Elizabeth Tarling, UCLA} \hfill {\em Summer 2017}
+\begin{itemize}
+  \item Developed ChIP-seq analysis pipeline to quantify the dimerization patterns of Maf family transcription factors which play a role in bile acid and lipid metabolism disorders.
+\end{itemize}
+
+\end{rSection}
+%----------------------------------------------------------------------------------------
+%	Publications
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Publications}
+
+\underline{A.C. Weiner}, M.J. Williams, H. Shi, S.P. Shah, A. McPherson ``Modeling single cell DNA replication dynamics and aneuploidy in genomically unstable cancers'', \textit{bioRxiv}. 2023. doi: \url{https://doi.org/10.1101/2023.04.10.536250}.
+
+H. Shi, M.J. Williams, G. Satas, \underline{A.C. Weiner}, A. McPherson, S.P. Shah ``Exploiting allele-specific transcriptional effects of subclonal copy number alterations for genotype-phenotype mapping in cancer cell populations'', \textit{bioRxiv}. 2023. doi: \url{https://doi.org/10.1101/2023.01.10.523464}.
+
+T. Funnell, C.H. O’Flanagan, M.J. Williams, ... \underline{A.C. Weiner}, ... S.P. Shah, S. Aparicio, ``Single-cell genomic variation induced by mutational processes in cancer'', \textit{Nature}. 2022; \textbf{612}: 106–115. doi: \url{https://doi.org/10.1038/s41586-022-05249-0}.
+
+% M.J. Williams, T. Funnell, C.H. O’Flanagan, ... \underline{A.C. Weiner}, ... S. Aparicio, S.P. Shah, ``Evolutionary tracking of cancer haplotypes at single-cell resolution'', \textit{bioRxiv}. 2021. doi: \url{https://doi.org/10.1101/2021.06.04.447031}.
+
+A.M. Farhat$^{\ast}$, \underline{A.C. Weiner}$^{\ast}$, C. Posner, Z.S. Kim, B. Orcutt-Jahns, S.M. Carlson, A.S. Meyer, ``Modeling cell-specific dynamics and regulation of the common gamma chain cytokines'', \textit{Cell Reports}. 2021; \textbf{35}: 109044. doi: \url{https://doi.org/10.1016/j.celrep.2021.109044}.
+
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	Presentations, Posters, etc.
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Presentations, Posters, etc.}
+
+\underline{A.C. Weiner}, M.J. Williams, H. Shi, A. McPherson, S.P. Shah, ``Probabilistic modeling of single-cell DNA replication dynamics in genomically unstable cancer cells'', poster presentation at Mathematical and Computational Methods in Cancer and Biology hosted by Columbia University Irving Institute of Cancer Dynamics, New York, 2023.
+
+\underline{A.C. Weiner}, A. McPherson, S.P. Shah, ``Single-cell replication timing and stress in genomically unstable cancers'', poster presentation at Rockefeller University Anderson Cancer Symposium, New York, 2022.
+
+\underline{A.C. Weiner}, A. McPherson, S.P. Shah, ``Single-cell replication timing and stress in genomically unstable cancers'', poster presentation at Cold Spring Harbor Laboratory 86th Quantitative Biology Symposium: Genome Stability \& Integrity, Cold Spring Harbor, 2022.
+
+\underline{A.C. Weiner}, A. McPherson, S.P. Shah, ``Single-cell replication dynamics in genomically unstable cancers'', oral presentation at American Association of Cancer Research (AACR) Annual Meeeting, New Orleans, 2022.
+
+A.M. Farhat$^{\ast}$, A. Lim$^{\ast}$, N.K. Namiri$^{\ast}$, S. Visagan$^{\ast}$, \underline{A.C. Weiner$^{\ast}$}, A.S. Meyer, ``Lineage tree hidden Markov model quantifies intratumor heterogeneity in cancer therapy'', poster \& presentation at UCLA Bioengineering Symposium, Los Angeles, 2019.
+
+\underline{A.C. Weiner}, A.M. Farhat, A.S. Meyer, ``Building a Reaction Model for Common $\gamma$-chain Cytokines'', poster at Biomedical Engineering Society Annual Meeting, Atlanta, 2018.
+
+\underline{A.C. Weiner}, J.C. Link, E. Tarling, T.A. Vallim, ``Integrating chromatin immunoprecipitation sequencing data to identify patterns of the small Maf family of transcription factors in HepG2 cells'', poster at BIG Summer Poster Day, Los Angeles, 2017.
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	Honors and Awards
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Honors and Awards}
+
+
+\item \textbf{NIH F31 Predoctoral Fellowship} \hfill {\em March 2023 - present}
+\newline
+\textit{National Cancer Institute, F31-CA271673}
+
+\item \textbf{AACR Scholar-in-Training Award} \hfill {\em April 2023}
+\newline
+\textit{Travel award for AACR Annual Meeting 2023}
+
+\item \textbf{NIH T32 Training Award} \hfill {\em July 2020 - June 2022}
+\newline
+\textit{Awarded by Tri-I CBM Program Leadership, T32-GM132083}
+
+\item \textbf{UCLA Bioengineering Symposium - Best Poster} \hfill {\em March 2019}
+\newline
+\textit{Awarded by UCLA Bioengineering and Medicine}
+
+\item \textbf{UCLA Internet Research Initiative Prize Winner} \hfill {\em 2018 - 2019}
+\newline
+\textit{Awarded by UCLA Computer Science}
+
+\item \textbf{Stanley H. Black Memorial Scholarship} \hfill {\em 2017 - 2019}
+\newline
+\textit{Awarded by UCLA Engineering and JFLA}
+
+\item \textbf{UCLA Dean’s Honor List (x5)} \hfill {\em 2016 - 2018}
+
+\end{rSection}
+
+
+%----------------------------------------------------------------------------------------
+% Extra Curricular
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Extra-Cirrucular} \itemsep -3pt
+\item Student Representative, CBM Directors Steering Committee \hfill {\em 2022 - present}
+\item Admissions Committee, MSK Comp Bio Summer Program (CBSP) \hfill {\em 2021 - 2023}
+\item Chair, CBM Annual Recruitment \hfill {\em 2021 - 2022}
+\item Chair, CBM Research in Progress Series \hfill {\em 2020 - 2021}
+\item Organizer, CBM Annual Retreat \hfill {\em 2020 - 2022}
+\item Member, Tri-I Science and Educational Policy Association (SEPA) \hfill {\em 2019 - 2021}
+\item Member, New York Academy of Sciences (NYAS) \hfill {\em 2019 - 2022}
+\item Mentor, UCLA Engineering (MentorSEAS) \hfill {\em 2016 - 2017}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	Coursework
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Relevant Coursework}
+
+\item \textbf{Foundations of Graphical Models} \newline
+Dr. David Blei, Columbia (not for credit)
+
+\item \textbf{Applied Machine Learning} \newline
+Dr. Nathan Kallus, Cornell Tech
+
+\item \textbf{Functional Interpretation of High-Throughput Data} \newline
+Dr. Jan Krumsiek, Weill Cornell
+
+\item \textbf{Data Structures and Algorithms in Computational Biology} \newline
+Dr. Iman Hajirasouliha, Weill Cornell
+
+\item \textbf{Algorithms in Bioinformatics} \newline
+Dr. Eleazar Eskin, UCLA
+
+\item \textbf{Computational Genetics} \newline
+Dr. Eran Halperin, UCLA
+
+\item \textbf{Machine Learning and Data-Driven Modeling in Bioengineering} \newline
+Dr. Aaron Meyer, UCLA
+
+\item \textbf{Systems Biomodeling} \newline
+Dr. Joe DiStefano III, UCLA
+
+\item \textbf{Biotransport and Bioreaction Processes} \newline
+Dr. Daniel Kamei, UCLA
+
+\end{rSection}
+
+
+\end{document}
